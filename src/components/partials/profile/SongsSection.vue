@@ -26,9 +26,14 @@
         <div class="">
             Song Player
         </div>
+        <div class="pb-4">
+            <SongPlayer/>
+        </div>
     </div>
 </template>
 
 <script setup>
     import RouterLinkButton from '../../global/RouterLinkButton.vue';
+    import SongPlayer from './SongPlayer.vue';
+
 </script>
