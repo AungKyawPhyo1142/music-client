@@ -3,9 +3,7 @@
         <router-link
                 class=
                     "
-                    float-right
                     bg-transparent
-                    text-gray-900
                     font-semi-bold
                     hover:text-white
                     py-2

@@ -7,14 +7,14 @@
                 <div class="bg-green-500 w-full h-1"></div>
                 <div class="w-full mt-4">
                     <RouterLinkButton
-                    class="ml-2"
+                    class="ml-2 float-right text-gray-900"
                     btnText="Delete Song"
                     color="red"
                     url="account/delete-song"
                     />
                     
                     <RouterLinkButton
-                    class=""
+                    class="float-right text-gray-900"
                     btnText="Add Song"
                     color="green"
                     url="account/add-song"

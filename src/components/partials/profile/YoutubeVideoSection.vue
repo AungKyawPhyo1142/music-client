@@ -7,14 +7,14 @@
                 <div class="bg-green-500 w-full h-1"></div>
                 <div class="w-full mt-4">
                     <RouterLinkButton
-                    class=""
+                    class="float-right ml-2 text-gray-900"
                     btnText="Delete Youtube Video"
                     color="red"
                     url="account/delete-youtube-video"
                     />
                     
                     <RouterLinkButton
-                    class=""
+                    class="float-right text-gray-900"
                     btnText="Add Youtube Video"
                     color="green"
                     url="account/add-youtube-video"

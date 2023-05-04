@@ -5,4 +5,10 @@
 </template>
 
 <style lang="scss">
+#accountView{
+  min-height: 70vh;
+}
 </style>
+
+<script setup>
+</script>

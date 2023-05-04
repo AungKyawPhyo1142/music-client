@@ -7,7 +7,7 @@
                 <div class="bg-green-500 w-full h-1"></div>
                 <div class="w-full mt-4">                    
                     <RouterLinkButton
-                    class=""
+                    class="float-right text-gray-900"
                     btnText="Create Post"
                     color="green"
                     url="account/create-post"
