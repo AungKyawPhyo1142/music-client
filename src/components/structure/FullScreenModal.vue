@@ -44,6 +44,14 @@
                                 url="account/profile"
                                 />
                         </div>
+                        <div class="pt-10">
+                            <RouterLinkButton
+                            @click="open=!open"
+                                class="w-full text-gray-100 text-center text-lg"
+                                btnText="Close"
+                                color="red"
+                                />
+                        </div>
 
                     </div>
 
