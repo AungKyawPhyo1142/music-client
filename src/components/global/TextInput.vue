@@ -2,7 +2,7 @@
   <div>
     <label
       for=""
-      class="block uppercase tracking-wide text-xs font-bold mb-2 text-gray-100"
+      class="block uppercase tracking-wide text-xs font-bold mb-2 "
         :class="labelColor ? text-gray-900: text-gray-900"
       >
       {{ label }}
@@ -14,7 +14,7 @@
         v-model="inputComputed"
       />
   </div>
-  <span v-if="error" class="text-red-500"></span>
+  <span v-if="error" class="text-red-500">{{ error }}</span>
 </template>
 
 <script setup>
